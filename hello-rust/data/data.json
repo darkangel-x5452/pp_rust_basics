@@ -1,0 +1,13 @@
+{
+    "string_key": "Hello, world!",
+    "integer_key": 42,
+    "float_key": 3.14159,
+    "boolean_key": true,
+    "null_key": null,
+    "array_key": [1, 2, 3, 4, 5],
+    "object_key": {
+      "nested_string": "Nested value",
+      "nested_integer": 100
+    }
+  }
+  
