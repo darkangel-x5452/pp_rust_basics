@@ -8,3 +8,6 @@ experimenting with rust code for development
 
 # Datasets
 - https://docs.pola.rs/user-guide/io/
+
+# Runs
+- cargo run -p hello-rust
