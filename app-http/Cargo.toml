@@ -1,0 +1,12 @@
+[package]
+name = "app-http"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.46"}
+polars-io = { version = "0.46", features = ["parquet", "json"] }
+serde = {version = "1.0.219", features = ["derive"]}
+serde_json = "1.0.140"
+reqwest = { version = "0.12.15", features = ["blocking", "json"] }
+tokio = { version = "1.44.2", features = ["full"] }
